@@ -3,11 +3,10 @@ def countdown(int)
   while int > 0 
    puts "#{int} SECOND(S)!"
    int -= 1 
-  end
+ end
   
 
-    it 'returns HAPPY NEW YEAR!' do
-      expect(countdown(12)).to eq "HAPPY NEW YEAR!"
+
     end
   end
 
